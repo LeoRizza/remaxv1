@@ -918,6 +918,24 @@ body {
     line-height: normal;
 }
 
+.historiaSumateBtn {
+    display: flex;
+    margin: 40px auto 20px;
+    width: 80%;
+    padding: 13px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    background: #004E9B;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 @media (min-width: 1023px) {
     .bodyMobile {
         display: none;
