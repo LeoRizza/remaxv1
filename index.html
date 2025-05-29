@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>RE/MAX Cordial | Sumate a la vida que querés</title>
+    <meta name="description"
+        content="Sumate a nuestro equipo como Gestora Comercial en RE/MAX Cordial. Oportunidad para mujeres profesionales en Santa Fe, con capacitación continua, libertad de horarios y comisiones atractivas.">
+    <meta name="keywords"
+        content="RE/MAX Cordial, inmobiliaria, gestora comercial, franquicia, Santa Fe, Argentina, trabajo flexible, equipo inmobiliario">
+    <meta name="author" content="RE/MAX Cordial">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.remaxcordial.com.ar">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="RE/MAX Cordial | Sumate a la vida que querés">
+    <meta property="og:description"
+        content="Sé parte de RE/MAX Cordial como Gestora Comercial: capacitaciones, networking y comisiones sin techo. Descubrí tu próximo desafío profesional.">
+    <meta property="og:image" content="https://www.remaxcordial.com.ar/img/og-image.jpg">
+    <meta property="og:url" content="https://www.remaxcordial.com.ar">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RE/MAX Cordial | Sumate a la vida que querés">
+    <meta name="twitter:description"
+        content="Gestora Comercial en RE/MAX Cordial: flexibilidad horaria, formación continua y altas comisiones. ¡Postulate ahora!">
+    <meta name="twitter:image" content="https://www.remaxcordial.com.ar/img/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/globo.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Video.js -->
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet">
+
+    <!-- AOS (animaciones al hacer scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link rel="preload" href="./fonts/gotham-book-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/gotham-bold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <nav class="navbar bg-transparent position-absolute top-0">
+        <div class="container-fluid">
+            <!-- Botón toggler convierte en offcanvas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+                aria-controls="offcanvasMenu" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img class="remaxLogoMenu" src="./img/remax logo.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <img class="remaxLogoMenuWhite" src="./img/remaxLogoWhite.png" alt="">
+            <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button> -->
+            <button type="button" class="text-reset btn-custom-close" data-bs-dismiss="offcanvas" aria-label="Cerrar">
+                <img class="btnCerrar" src="./img/x.svg" alt="Cerrar" width="24" height="24">
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <img class="vectorMenuWhite" src="./img/VectorMenu.svg" alt="">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                <a class="nav-link" href="./segunda.html">POR QUÉ RE/MAX CORDIAL</a>
+            </div>
+            <div class="divMenuRedes">
+                <img src="./img/redes1.svg" alt="">
+                <img src="./img/redes2.svg" alt="">
+                <img src="./img/redes3.svg" alt="">
+                <img src="./img/redes4.svg" alt="">
+            </div>
+            <a href="#postulate" class="postulateBtnMenu">POSTULATE AHORA</a>
+        </div>
+    </div>
+
+
+    <div class="bodyDesktop">
+        <section class="bannerSection">
+            <div class="bannerDiv">
+                <img class="bannerImg" src="./img/banner.avif" alt="banner image">
+            </div>
+
+            <div class="bannerContent">
+                <div>
+                    <h1 class="sumateTxt">SUMATE A NUESTRO<br>EQUIPO COMO<br><strong>GESTORA COMERCIAL</strong></h1>
+                </div>
+                <a href="#postulate" class="postulateBtn">POSTULATE AHORA</a>
+            </div>
+        </section>
+        <section style="position: relative;">
+            <img class="videoLine" src="./img/line3.svg" alt="linea de separacion">
+
+            <div class="videoSection">
+                <div class="videoMujeresDiv">
+                    <p class="videoMujeresText">Solo para <span class="videoMujeresSpan">mujeres emprendedoras</span>
+                    </p>
+                    <h3 class="sectionMujer">Comenzá tu carrera en el mercado inmobiliario en RE/MAX CORDIAL</h3>
+                    <p class="videoMujeresText">Solo para <span class="videoMujeresSpan">mujeres emprendedoras</span>
+                    </p>
+                </div>
+                <video id="my-video3" class="video-js vjs-default-skin" controls preload="auto" width="640"
+                    height="360">
+                    <source src="./img/VSL2.mp4" type="video/mp4">
+                    Tu navegador no soporta videos en HTML5.
+                </video>
+            </div>
+        </section>
+        <section>
+            <div class="divOfrecemos">
+                <h3 class="ofrecemosPostulate">POSTULATE AHORA</h3>
+                <img class="ofrecemosLine" src="./img/line2.svg" alt="linea de separacion">
+                <h2 class="ofrecemosTitle">¿Qué te ofrecemos?</h2>
+                <div class="ofrecemosDiv1">
+                    <img class="ofrecemosImg" src="./img/ofrecemos1.avif" alt="">
+                    <p class="ofrecemosText">Sí, leíste bien. Vas a cobrar en <span
+                            style="font-weight: 550;">DÓLARES</span> en todas las operaciones que
+                        realices.
+                        Tu ingreso
+                        dependerá exclusivamente de tu esfuerzo, de tu llegada a los clientes, de potenciar y cultivar
+                        tu re
+                        de vínculos personales y profesionales. Obvio, <span style="font-weight: 550;"> RE/MAX CORDIAL</span> te va a acompañar en cada paso que
+                        des.
+                        No vas a estar sola.</p>
+                </div>
+                <div class="ofrecemosDiv2">
+                    <p class="ofrecemosText">Perderte eventos importantes en la vida de tus hijos es historia del
+                        pasado. En
+                        <span style="font-weight: 550;"> RE/MAX CORDIAL</span> no
+                        vas a fichar y no vas a tener un sueldo fijo. Vas a tener la <span style="font-weight: 550;">LIBERTAD</span> de poder manejar tu
+                        agenda.
+                        Estar organizada y ser consciente de eso te va a distinguir del resto. </p>
+                    <img class="ofrecemosImg" src="./img/ofrecemos2.avif" alt="">
+                </div>
+                <div class="ofrecemosDiv3">
+                    <img class="ofrecemosImg" src="./img/ofrecemos3.avif" alt="">
+                    <p class="ofrecemosText">La capacitación continua y el networking son centrales e imprescindibles en
+                        nuestro modelo de
+                        negocios. Vas a estar en constante aprendizaje, vas a nutrirte de los mejores para alcanzar el
+                        nivel
+                        de <span style="font-weight: 550;">progreso personal y profesional</span> que merecés.
+                </div>
+            </div>
+
+            <div>
+                <h2 class="saberTitle">Tenés que saber esto antes de postularte al modelo de negocios de RE/MAX CORDIAL
+                </h2>
+                <img class="ofrecemosLine" src="./img/line3.svg" alt="linea de separacion">
+                <div class="saberDiv">
+                    <div class="saberDivCard">
+                        <img class="saberIcon" src="./img/saber1.svg" alt="icono dinero">
+                        <h3 class="saberCardTitle">No hay remuneración fija mensual</h3>
+                        <h5 class="saberCardText">Tus ingresos dependerán de tu trabajo</h5>
+                    </div>
+                    <div class="saberDivCard">
+                        <img class="saberIcon" src="./img/saber2.svg" alt="icono medalla">
+                        <h3 class="saberCardTitle">Inteligencia emocional</h3>
+                        <h5 class="saberCardText">Dominar tus sentimientos es una habilidad clave a la hora de cerrar
+                            operaciones</h5>
+                    </div>
+                    <div class="saberDivCard">
+                        <img class="saberIcon" src="./img/saber3.svg" alt="icono cohete">
+                        <h3 class="saberCardTitle">Capacitación constante</h3>
+                        <h5 class="saberCardText">Aspecto clave en nuestra oficina que lleva tiempo, esfuerzo y
+                            dedicación</h5>
+                    </div>
+                </div>
+                <div class="saberDiv">
+                    <div class="saberDivCard">
+                        <img class="saberIcon" src="./img/saber4.svg" alt="icono reloj">
+                        <h3 class="saberCardTitle">No hay horarios, ni jefes ni estructuras</h3>
+                        <h5 class="saberCardText">Ser una persona organizada es muy importante</h5>
+                    </div>
+                    <div class="saberDivCard">
+                        <img class="saberIcon" src="./img/saber5.svg" alt="icono comunicación">
+                        <h3 class="saberCardTitle">Buena presencia y comunicación</h3>
+                        <h5 class="saberCardText">Como sos, te mostrás</h5>
+                    </div>
+                    <div class="saberDivCard">
+                        <img class="saberIcon" src="./img/saber6.svg" alt="icono cerebro">
+                        <h3 class="saberCardTitle">Tolerar la incertidumbre y el riesgo</h3>
+                        <h5 class="saberCardText">Reaccionar y convertirla en acción</h5>
+                    </div>
+                </div>
+            </div>
+            <section class="conoceSection">
+                <h2 class="conoceTitle">Conocé a quienes decidieron dar el paso y cambiar su realidad</h2>
+                <img class="conoceLine" src="./img/line3.svg" alt="linea de separación">
+                <div class="carousel-container">
+                    <div class="card cardLeo carousel-card">
+                        <img class="imgCardLeo" src="./img/luciano.jpg" alt="">
+                        <div class="conoceCardContent">
+                            <h6 class="conoceName">LUCIANO</h6>
+                            <p class="conoceText">10 años en RE/MAX CORDIAL</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card card cardLeo">
+                        <img class="imgCardLeo" src="./img/luciano.jpg" alt="">
+                        <div class="conoceCardContent">
+                            <h6 class="conoceName">LUCIANO</h6>
+                            <p class="conoceText">10 años en RE/MAX CORDIAL</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card card cardLeo">
+                        <img class="imgCardLeo" src="./img/luciano.jpg" alt="">
+                        <div class="conoceCardContent">
+                            <h6 class="conoceName">LUCIANO</h6>
+                            <p class="conoceText">10 años en RE/MAX CORDIAL</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card card cardLeo">
+                        <img class="imgCardLeo" src="./img/luciano.jpg" alt="">
+                        <div class="conoceCardContent">
+                            <h6 class="conoceName">LUCIANO</h6>
+                            <p class="conoceText">10 años en RE/MAX CORDIAL</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card card cardLeo">
+                        <img class="imgCardLeo" src="./img/luciano.jpg" alt="">
+                        <div class="conoceCardContent">
+                            <h6 class="conoceName">LUCIANO</h6>
+                            <p class="conoceText">10 años en RE/MAX CORDIAL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="conoceBtn">SUMATE A NUESTRO EQUIPO</button>
+            </section>
+
+            <section class="porqueSection">
+                <div class="porqueDiv">
+                    <div class="porqueImgDiv">
+                        <img class="porqueImg" src="./img/porque.avif" alt="personas acordando">
+                    </div>
+                    <div class="porqueTextDiv">
+                        <h2 class="porqueTitle">¿Porqué RE/MAX CORDIAL?</h2>
+                        <img class="porqueLine" src="./img/line.svg" alt="linea de separación">
+                        <p class="porqueText">Figma ipsum component variant main layer. Connection shadow follower
+                            shadow
+                            comment community union. Follower create subtract ipsum undo figma. Italic figma flatten
+                            undo frame
+                            clip. Main connection team link underline rotate frame content. Variant scale outline.
+                            <br>
+                            <br>
+                            Distribute inspect export select follower link overflow strikethrough text. Vertical line
+                            polygon
+                            share background object fill pixel follower. Move polygon bullet arrange plugin pixel. Auto
+                            auto
+                            bold pixel device connection vertical pen. Device editor group distribute flows main export
+                            outline
+                            library. Subtract fill layer opacity thumbnail.
+                        </p>
+
+                        <a href="#postulate" class="postulateBtn">POSTULATE AHORA »</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="postulateDiv row">
+                    <div class="postulateDivImg col-6">
+                        <img class="postulateImg" src="./img/postulate.avif" alt="">
+                    </div>
+                    <div class="postulateDivText col-6">
+                        <img class="postulateLine" src="./img/line3.svg" alt="linea de separacion">
+                        <p class="postulateChildText">¿Querés trabajar en la franquicia más grande de Santa Fe junto a
+                            los
+                            agentes inmobiliarios más exitosos del mercado?</p>
+                        <button class="postulateBtn2">POSTULATE AHORA</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row mudateSection">
+                <div class="mudateDiv col">
+                    <h3 class="mudateTitle">
+                        MUDATE A LA VIDA
+                        QUE QUERÉS
+                    </h3>
+                </div>
+                <div class="col logoFooterDivImg">
+                    <img class="col logoFooter" src="./img/remax logo.png" alt="logo remax">
+                </div>
+            </section>
+    </div>
+
+    <div class="bodyMobile">
+        <section class="bannerSectionMobile">
+            <div class="bannerDivMobile">
+                <img class="bannerImgMobile" src="./img/bannerMobile.avif" alt="banner image">
+
+
+                <div class="bannerContentMobile">
+                    <div>
+                        <h1 class="sumateTxtMobile">SUMATE A NUESTRO<br>EQUIPO COMO<br><strong>GESTORA
+                                COMERCIAL</strong></h1>
+                    </div>
+                    <a href="#postulate" class="postulateBtnMobile">POSTULATE AHORA</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="videoSectionMobile">
+                <p class="mujeresMobile">Solo para <strong>mujeres profesionales</strong> </p>
+                <h3 class="mujeresMobileTitle">Comenzá tu carrera en el mercado inmobiliario en RE/MAX CORDIAL</h3>
+                <p class="mujeresMobile">Sumate a nuestro equipo y <br> <strong>mudate a la vida que querés</strong>
+                </p>
+                <video id="my-videoMobile" class="video-js vjs-default-skin" controls preload="auto" width="640"
+                    height="360">
+                    <source src="./img/VSL2.mp4" type="video/mp4">
+                    Tu navegador no soporta videos en HTML5.
+                </video>
+                <a href="#sumate" class="sumateBtnMobile">Sumate a nuestro equipo <img src="./img/fast_forward.svg"
+                        alt="fast froward"> </a>
+            </div>
+        </section>
+        <section>
+            <h2 class="ofrecemosMobileTitle">¿Qué te ofrecemos?</h2>
+            <div class="ofrecemosDivPadreMobile">
+                <div class="ofrecemosDivMobile">
+                    <img class="ofrecemosMobileImg" src="./img/mobileOfrecemos3.avif" alt="remax agente comercial">
+                    <p class="ofrecemosTextMobile">Sí, leíste bien. Vas a cobrar en <span
+                            style="font-weight: 550;">DÓLARES</span> en todas las operaciones
+                        comerciales que realices. Tu
+                        ingreso dependerá exclusivamente de tu esfuerzo, de tu llegada a los clientes, de potenciar y
+                        cultivar tu red de vínculos personales y profesionales. Obvio, ReMax Cordial te va a acompañar
+                        en cada paso que des.
+                        No vas a estar sola.</p>
+                </div>
+                <div class="ofrecemosDivMobile">
+                    <img class="ofrecemosMobileImg" src="./img/mobileOfrecemos2.avif" alt="remax agente comercial">
+                    <p class="ofrecemosTextMobile">Perderte eventos importantes en la vida de tus hijos es historia del
+                        pasado. En ReMax Cordial no
+                        vas a fichar y no vas a tener un sueldo fijo. Vas a tener la LIBERTAD de poder manejar tu
+                        agenda. Estar organizada y ser consciente de eso te va a distinguir del resto.</p>
+                </div>
+                <div class="ofrecemosDivMobile">
+                    <img class="ofrecemosMobileImg2" src="./img/mobileOfrecemos1.avif" alt="remax agente comercial">
+                    <p class="ofrecemosTextMobile">La capacitación continua y el networking son centrales e
+                        imprescindibles en nuestro modelo de
+                        negocios. Vas a estar en constante aprendizaje, vas a nutrirte de los mejores para alcanzar el
+                        nivel de progreso personal y profesional que te merecés.</p>
+                </div>
+                <img class="middleLineMobile" src="./img/LineMiddleVector.svg" alt="">
+                <h2 class="ofrecemosMobileTitle2">Tenés que saber esto antes de postularte al modelo de negocios de
+                    RE/MAX CORDIAL</h2>
+                <div class="divPadreMobileSaber">
+                    <div class="cardIconsMobile">
+                        <img class="iconoMobile" src="./img/saber1.svg" alt="icono dinero">
+                        <div>
+                            <h5 class="saberMobileTitle">No hay remuneración fija mensual</h5>
+                            <p class="saberMobileText">Tus ingresos dependerán de tu trabajo</p>
+                        </div>
+                    </div>
+                    <div class="cardIconsMobile">
+                        <img class="iconoMobile" src="./img/saber2.svg" alt="icono medalla">
+                        <div>
+                            <h5 class="saberMobileTitle">Inteligencia emocional</h5>
+                            <p class="saberMobileText">Dominar tus sentimientos es una habilidad clave a la hora de
+                                cerrar operaciones</p>
+                        </div>
+                    </div>
+                    <div class="cardIconsMobile">
+                        <img class="iconoMobile" src="./img/saber3.svg" alt="icono cohete">
+                        <div>
+                            <h5 class="saberMobileTitle">Capacitación constante</h5>
+                            <p class="saberMobileText">Aspecto central en nuestra oficina </p>
+                        </div>
+                    </div>
+                    <div class="cardIconsMobile">
+                        <img class="iconoMobile" src="./img/saber6.svg" alt="icono reloj">
+                        <div>
+                            <h5 class="saberMobileTitle">Tolerar la incertidumbre</h5>
+                            <p class="saberMobileText">Convertirla en acción </p>
+                        </div>
+                    </div>
+                    <div class="cardIconsMobile">
+                        <img class="iconoMobile" src="./img/saber5.svg" alt="icono comunicación">
+                        <div>
+                            <h5 class="saberMobileTitle">Buena presencia y comunicación</h5>
+                            <p class="saberMobileText">Como sos, te mostrás</p>
+                        </div>
+                    </div>
+                    <div class="cardIconsMobile">
+                        <img class="iconoMobile" src="./img/saber4.svg" alt="icono pensar">
+                        <div>
+                            <h5 class="saberMobileTitle">No hay horario, ni jefe, ni estructura</h5>
+                            <p class="saberMobileText">Ser una persona organizada es muy importante</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="conoceMobileTitle">Conocé a quienes decidieron dar el paso y cambiar su realidad.</h2>
+            <div class="carousel-container">
+                <div class="carousel-card card cardLeoMobile">
+                    <img class="imgCardLeoMobile" src="./img/luciano.jpg" alt="">
+                    <h6 class="conoceNameMobile">LUCIANO</h6>
+                    <p class="conoceTextMobile">10 años en RE/MAX CORDIAL</p>
+                    <div class="dialogTextDiv">
+
+                        <p class="dialogText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+                            libero, enim ratione
+                            tenetur illo blanditiis beatae quisquam non, rem natus quibusdam id, asperiores molestiae
+                            atque magni doloremque iure. Incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-card card cardLeoMobile">
+                    <img class="imgCardLeoMobile" src="./img/luciano.jpg" alt="">
+                    <h6 class="conoceNameMobile">LUCIANO</h6>
+                    <p class="conoceTextMobile">10 años en RE/MAX CORDIAL</p>
+                    <div class="dialogTextDiv">
+                        <p class="dialogText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+                            libero, enim ratione
+                            tenetur illo blanditiis beatae quisquam non, rem natus quibusdam id, asperiores molestiae
+                            atque magni doloremque iure. Incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-card card cardLeoMobile">
+                    <img class="imgCardLeoMobile" src="./img/luciano.jpg" alt="">
+                    <h6 class="conoceNameMobile">LUCIANO</h6>
+                    <p class="conoceTextMobile">10 años en RE/MAX CORDIAL</p>
+                    <div class="dialogTextDiv">
+                        <p class="dialogText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+                            libero, enim ratione
+                            tenetur illo blanditiis beatae quisquam non, rem natus quibusdam id, asperiores molestiae
+                            atque magni doloremque iure. Incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-card card cardLeoMobile">
+                    <img class="imgCardLeoMobile" src="./img/luciano.jpg" alt="">
+                    <h6 class="conoceNameMobile">LUCIANO</h6>
+                    <p class="conoceTextMobile">10 años en RE/MAX CORDIAL</p>
+                    <div class="dialogTextDiv">
+                        <p class="dialogText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+                            libero, enim ratione
+                            tenetur illo blanditiis beatae quisquam non, rem natus quibusdam id, asperiores molestiae
+                            atque magni doloremque iure. Incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-card card cardLeoMobile">
+                    <img class="imgCardLeoMobile" src="./img/luciano.jpg" alt="">
+                    <h6 class="conoceNameMobile">LUCIANO</h6>
+                    <p class="conoceTextMobile">10 años en RE/MAX CORDIAL</p>
+                    <div class="dialogTextDiv">
+                        <p class="dialogText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos eaque
+                            libero, enim ratione
+                            tenetur illo blanditiis beatae quisquam non, rem natus quibusdam id, asperiores molestiae
+                            atque magni doloremque iure. Incidunt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="porqueAzulDiv">
+                <div class="middleLineMobile2">
+                    <img src="./img/LineMiddleVector.svg" alt="">
+                </div>
+                <div class="azulMobile">
+                    <h4 class="azulMobileTitle">¿Porqué RE/MAX CORDIAL?</h4>
+                    <P class="azulMobileText"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ipsam,
+                        dolorem, et suscipit beatae consectetur eaque laboriosam deleniti ratione itaque dolores
+                        corporis incidunt sunt temporibus. Enim exercitationem molestias suscipit recusandae. <br> <br>
+                        Rerum, at quam recusandae error fugiat
+                        maiores delectus dicta quae ipsam! Aliquid doloribus nisi nobis nostrum recusandae reprehenderit
+                        earum cumque minima. Assumenda!</P>
+                    <a class="azulMobileBtn">Sumate a nuestro equipo <img class="fastFwMobile"
+                            src="./img/fast_forward.svg" alt=""> </a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="middleLineMobile2">
+                <img class="linea1234" src="./img/LineMiddleVector.svg" alt="">
+            </div>
+            <h3 class="franquiciaTitle">¿Querés trabajar en la franquicia más grande de Santa Fe junto a los agentes
+                inmobiliarios más exitosos del mercado?</h3>
+
+            <div class="overlapContainer">
+                <div class="imgWrapper bottom">
+                    <img src="./img/overlap1.avif" alt="Foto Remax Cordial" class="img-bottom-remax">
+                </div>
+                <div class="imgWrapper top">
+                    <img src="./img/overlap2.avif" alt="Foto Remax Cordial" class="img-top-remax">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row globoDiv">
+                <div class="col-5" style="display: flex; justify-content: center;">
+                    <img class="globoImg" src="./img/globo.png" alt="logo globo remax">
+                </div>
+                <div class="col-7" style="display: flex; justify-content: center;"><img class=" globoLogoImg"
+                        src="./img/remax logo.png" alt="logo globo remax">
+                </div>
+            </div>
+            <a class="sumateGlobo" href="">POSTULATE AHORA</a>
+        </section>
+    </div>
+
+    <section class="disclaimer">
+        <h4 class="disclaimerTitle">Disclaimer</h4>
+        <p class="disclaimerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque earum ab adipisci
+            consequuntur dolorem
+            placeat doloremque perferendis repellendus. Reprehenderit officiis aperiam ipsum soluta assumenda incidunt
+            molestiae, delectus laudantium sed tempore.</p>
+    </section>
+
+
+    <footer class="footerRemax">
+        <p class="powered">Powered by</p>
+        <p class="bilab">bi.lab | Agency</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
